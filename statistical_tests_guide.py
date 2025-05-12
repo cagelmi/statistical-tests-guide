@@ -868,7 +868,7 @@ def guide_to_statistical_test():
     Guides a user through a series of questions to help them choose an
     appropriate statistical test for their research.
 
-    IMPORTANT FINAL NOTES:
+    IMPORTANT NOTES:
     *   Assumptions are Key: Always check the assumptions of the chosen test.
         Violating assumptions can lead to incorrect conclusions.
     *   Sample Size: Some tests are better suited for small or large sample sizes.
@@ -889,7 +889,8 @@ def guide_to_statistical_test():
     """
     print("\nWelcome to the Statistical Test Guide!")
     print("Let's find a suitable test for your data.")
-    print("-" * 40)
+    print("Claudio Gelmi (2025) @  https://github.com/cagelmi")
+    print("-" * 51)
     print(guide_to_statistical_test.__doc__) # Print the docstring with notes
     print("-" * 80)
 
@@ -931,6 +932,7 @@ def guide_to_statistical_test():
         print("Please review your choices or consult a statistician for complex scenarios.")
 
     print("\nEnd of consultation. Remember to verify test assumptions and consider effect sizes!")
+    input("\nPress Enter to close this window...") 
 
 if __name__ == "__main__":
     guide_to_statistical_test()
