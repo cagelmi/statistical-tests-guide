@@ -1,4 +1,4 @@
-# Statistical Test Guider (Python)
+# Statistical Test Guider (Python + Win EXE)
 
 Designed to assist researchers, data scientists, and students, this Python-based interactive command-line tool provides guidance in selecting appropriate statistical tests from a list of 50 of the most frequently employed statistical techniques, according to their study's purpose, research design, and data characteristics.
 
