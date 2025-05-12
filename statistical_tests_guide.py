@@ -1,3 +1,4 @@
+import sys
 # statistical_tests_guide.py
 # Author: Claudio Gelmi @ https://github.com/cagelmi
 # Date: 2025-05-12
@@ -475,6 +476,8 @@ def ask_question(prompt, options):
 
     while True:
         choice = input("Your choice: ").strip().lower()
+        if choice == "q":
+            sys.exit()
         if choice in options:
             return choice
         else:
@@ -890,6 +893,7 @@ def guide_to_statistical_test():
     print("\nWelcome to the Statistical Test Guide!")
     print("Let's find a suitable test for your data.")
     print("Claudio Gelmi (2025) @  https://github.com/cagelmi")
+    print("Enter q to exit")
     print("-" * 51)
     print(guide_to_statistical_test.__doc__) # Print the docstring with notes
     print("-" * 80)
