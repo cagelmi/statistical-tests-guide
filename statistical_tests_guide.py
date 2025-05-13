@@ -4,6 +4,8 @@
 # Description: An interactive guide to selecting statistical tests.
 # (This program was developed with the assistance of Google's Gemini 2.5 Pro model.)
 
+import sys
+
 # --- TEST SUMMARIES DICTIONARY (ASSUMING KEYS ARE CLEAN, e.g., "37. Brown-Forsythe Test") ---
 TEST_SUMMARIES = {
     "1. One-Sample t-test (P)": {
@@ -474,7 +476,10 @@ def ask_question(prompt, options):
         print(f"  {key}) {value}")
 
     while True:
-        choice = input("Your choice: ").strip().lower()
+        choice = input("Your choice ('q' to exit): ").strip().lower()
+        if choice == 'q':
+            print()
+            sys.exit()
         if choice in options:
             return choice
         else:
