@@ -4,7 +4,7 @@ Designed to assist researchers, data scientists, and students, this Python-based
 
 **Status:** Actively being tested and refined. Expect improvements and expanded test coverage over time. Contributions and feedback are welcome!
 
-*(This program was developed with the assistance of Google's Gemini 2.5 Pro model.)*
+This tool was developed with the assistance of Google's Gemini 2.5 Pro model.
 
 ## Table of Contents
 
