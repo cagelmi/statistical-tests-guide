@@ -2,9 +2,9 @@
 
 Designed to assist researchers, data scientists, and students, this Python-based interactive command-line tool provides guidance in selecting appropriate statistical tests from a list of 50 of the most frequently employed statistical techniques, according to their study's purpose, research design, and data characteristics.
 
-**Status:** Actively being tested and refined. Expect improvements and expanded test coverage over time. Contributions and feedback are welcome!
-
 This tool was developed with the assistance of Google's Gemini 2.5 Pro model.
+
+**Status:** Actively being tested and refined. Expect improvements and expanded test coverage over time. Contributions and feedback are welcome!
 
 ## Table of Contents
 
