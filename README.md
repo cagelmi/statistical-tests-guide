@@ -148,7 +148,7 @@ The guide currently includes information on the following statistical tests, gro
 
 ### Running the Guide
 
-1.  Clone this repository or download the `statistical_test_guide.py` (or similarly named Python file).
+1.  Clone this repository or download the `statistical_test_guide.py`.
 2.  Open a terminal or command prompt.
 3.  Navigate to the directory where you saved the file.
 4.  Run the script using the command:
