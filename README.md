@@ -157,7 +157,7 @@ The guide currently includes information on the following statistical tests, gro
     ```
 5.  Follow the on-screen prompts, answering questions about your research to receive test recommendations.
 
-For **Windows users**, there is a compile version available in the repo, so you can run it without the need of using Python. 
+For **Windows users**, there is a compile version available in the repo (StatGuide.exe), so you can run it without the need of using Python. 
 
 ## Important Considerations
 
